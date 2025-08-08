@@ -10,11 +10,21 @@
 # >
 # >
 # !
-# <=
+# <=s
 # >=
 
 # logical operator 
-if(not 10 > 20):
-    print(True)
-else:
-    print(False)
+# if(not 10 > 20):
+#     print(True)
+# else:
+#     print(False)
+# print sum 
+# num1 =int(input("enter num first:"))
+# num2 =int(input("enter num second:"))
+# print("sum is :",num1+num2)
+# side= float(input("enter side of square:"))
+# print("area :",side*side)
+#  print average of two number
+# num1= float(input("enter num1"))
+# num2= float(input("enter num2"))
+# print("average is :",(num1+num1)/2)
