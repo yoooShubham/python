@@ -44,3 +44,34 @@
 # wap to find $ in string 
 # stri ="aug$dudhd#$^"
 # print(stri.count("$"))
+
+# use of nesting in python 
+# sal= int(input("enter ur salary"))
+# age= int(input("enter ur age"))
+# ep= int(input("enter ur experince"))
+ 
+# if(sal>50000):
+#   print("first gate will open:")
+#   if(ep>10):
+#    print("second gate will open")
+#    if(age>10):
+#      print("finally u got bonus")
+# else:
+#   print("no-bouns")
+
+# grade students based on there marks 
+
+# marks >=90 g=A 
+# marks >=80 g=B 
+# marks >=70 g=C 
+# marks <70 g=D  
+ 
+# marks =int(input("enter your marks :"))
+# if(marks>=90 and marks<=100):
+#     print("your grade is A")
+# elif(marks>=80 and marks<90):
+#     print("your grade is B")
+# elif(marks>=70 and marks<80):
+#     print("your grade is C")    
+# else:
+#     print("ur grade is D")
