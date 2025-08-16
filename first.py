@@ -75,3 +75,47 @@
 #     print("your grade is C")    
 # else:
 #     print("ur grade is D")
+
+
+# enterd number is even or odd 
+# num= int(input("input the first number :"))
+# num= int(input("input the second number :"))
+# num= int(input("input the third  number :"))
+# if(num%2==0):
+#     print("number is even")
+# else:
+#     print("number is odd")
+
+#find the biggest number 
+# num1=10
+# num2=23
+# num3=30
+# if(num1>num2 and num1>num3):
+#     print(num1," is bigger the rest number")
+# elif(num2>num1 and num2>num3):
+#     print(num2," is bigger the rest number")
+# else:
+#     print(num3,"is bigger")
+
+
+# list and tuples 
+# slic=["shubh",22,23.44,"dehli"]
+# print(slic[1:3])
+# li=["hello",23,55.6]
+# li.append("https")
+# li.insert(4,"yarr")
+# print(li)
+# # checking it is mutable or not 
+# li[2]="hdrg"
+# print(li)
+# yes list in python are mutable
+ 
+
+#  tuples
+# tuples are as same as list in python , but there are one main difference between both is tuples are immutable in python 
+  
+# tup=("weges",68,33.5, True)
+# print(tup)
+# # tup[1]="hello"  
+# tup1=(1,)
+# print(tup1)
