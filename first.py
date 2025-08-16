@@ -119,3 +119,25 @@
 # # tup[1]="hello"  
 # tup1=(1,)
 # print(tup1)
+
+
+
+# WAP to ask use to enter names of there 3 favorite movie and store in list  
+#  
+
+#  WAP to check the list contains a palidrome of element (hint  use copy method)
+# list1= [1,2,3,2,1 ]
+# list2= [1,"abc","abc",1]
+# list1_copy=list1.copy()
+# list1_copy.reverse()
+# if(list1_copy==list1):
+#     print("palidrome")
+# else:
+#     print("not palidrome")
+
+# list2_copy=list2.copy()
+# list2_copy.reverse()
+# if(list2_copy==list2):
+#     print("palidrome")
+# else:
+#     print("not palidrome")
