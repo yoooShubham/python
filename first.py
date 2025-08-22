@@ -141,3 +141,62 @@
 #     print("palidrome")
 # else:
 #     print("not palidrome")
+
+# count function in tuple
+# WAP in python to show the use of tuple
+
+# tup= ("A","b","c","A","A","d","A","c",)
+# print("count of A is :",tup.count("A"))
+
+
+# dictionary in python :
+
+# dic={
+#     "greet": "hello",
+#     "name":"shubham",
+#    "last_N": "acharya",
+# }
+# print(dic["greet"])
+
+# dic={
+#     "greet": "hello",
+#     "M-num":6374,
+#     "12class":["shubham","11",760,323233],
+#     "11class":("arpan","12",780,3233),
+#    "last_Y": True,
+#    "new_dic": {
+#        "greet": "bonjur",
+#     "M-num":6365,
+#     "10class":["khushi","10",820,233],
+#    }
+# }
+# print(dic["11class"][2])
+# print(dic["new_dic"]["10class"][0])
+# dic["new_dic"]["origin"]="fance"      # assiging the key valuse pair in dictionary 
+# print(dic["new_dic"])
+
+
+# set in python 
+
+# set is collection immutable data 
+# in set we store data like str,int , boolean, float, tuples, bcoz these data type are inmutable 
+# set are unorderd in python 
+
+# set1={ 1,2,3,4,5,6,3,1,"hello","hello","yoo",234.4}
+# print(set1,type(set1))
+
+# Q store a following word meaning in python dictionary 
+# table: a piece of furniture , list of fact and figures
+# dic={
+# }
+# dic["cat"]="a small animal"
+# dic["table"]=("a piece of furniture ","list of fact and figures")
+# # dic["table"]=["a piece of furniture ","list of fact and figures"]
+# print(type(dic["table"]))
+# print(dic)
+# print(dic["table"][0])
+
+# Q you are given a list of subject for student assume one classroom is required for 1 subject how many classrooms are needed by all student 
+
+# set1={"python","java","C++","python","javascript","java","python","java","C++","c" }
+# print(len(set1))
