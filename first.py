@@ -200,3 +200,14 @@
 
 # set1={"python","java","C++","python","javascript","java","python","java","C++","c" }
 # print(len(set1))
+
+
+# this two lines will print all the word 
+# import keyword
+# print(keyword.kwlist)
+
+# loops 
+# pe=0
+# while(pe<10):
+#     print("hello")
+#     pe=pe+1
