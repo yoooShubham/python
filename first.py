@@ -247,3 +247,70 @@
 #            print("yehhh rigth guesss !!")
 #            print("u took ",attampt_count," to guess the number !")
 #            break
+# li =["hello","namaste","yoo","hola","good morning"]
+# for i in li:
+#     print(i)
+# for i in range(12):
+#     print(i)
+
+# li ={
+#     " he":"hello",
+#     "yo":"name",
+#     "namaste":"yoo",
+# }
+# for i in li:
+#     print(li[i])
+
+# nested loop
+# for i in range(1,5):
+#     for j in range(0,i):
+#         print("*", end="") 
+#     print()
+
+# *
+# **
+# ***
+# ****
+# *****
+# ******
+# *******
+# ********
+# *********
+
+# start=int(input("enter number of row :"))
+# for i in range(1,start):
+#     for j in range(0,i):
+#         print("*", end="") 
+#     print()
+
+# pass statement in python 
+# 
+# pass statemnet simplly pass(help to move in next line without writing the current loop logic)
+# just like this 
+
+# for i in range():
+#     pass  # no need to write the current logic 
+# print("hello")
+# print("TI")
+# see we can write code without writing the logic in loop   
+
+
+# built-in function
+# print("hello")
+# input("enter your input ")
+# print(type(12)) # to define data type oof values 
+# int()
+# float()
+# bool()
+# set()
+# list()
+# tuple()
+# print(abs(15.44))  #print only absolute values 
+# print(pow(2,3)) #which means 2 the power 3
+#min/max 
+# print(min([1,2,3,4,5,6,8])) # it will find the minimun value in list,tuple,set, or series type data 
+# print(min([1,2,3,4,5,6,8])) # it will find the maximun value in list,tuple,set  or series type data 
+# print(round(23.88454,3)) # it will give the round soff the number
+# help function 
+# help function give us the details of any funtion
+# help()
