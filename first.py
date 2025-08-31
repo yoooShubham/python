@@ -211,3 +211,39 @@
 # while(pe<10):
 #     print("hello")
 #     pe=pe+1
+
+# j=13; com=2+12j
+# print(com)
+
+
+# if(input("enter the username :")=="campusX" and int(input("enter the password :"))==123):
+#     print("welcome")
+# else:
+#     print("wrong password")
+
+# for(i=0;i<10;):
+#   print("hello")
+# i=0
+# while(i<10):
+#     print("hello")
+#     i+=1
+
+
+# here we are creating the number guessing game in pythons 
+# import random
+# random_num=random.randint(20,30)
+# print(random_num)
+# attampt_count=None
+# user_num=int(input("enter the number"))
+# attampt_count =+1
+# if(random_num==user_num):
+#     print("yehhh rigth guesss !!")
+#     print("u took ",attampt_count," to guess the number !")
+# else:
+#     while(True):
+#          user_num=int(input())
+#          attampt_count+=1
+#          if(random_num==user_num):
+#            print("yehhh rigth guesss !!")
+#            print("u took ",attampt_count," to guess the number !")
+#            break
