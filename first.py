@@ -356,3 +356,4 @@
 # print(t)
 # se={1,"hello",'a',(1,2)}
 # print(type(se)) 
+help(dict)
