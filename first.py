@@ -354,5 +354,5 @@
 # t=(1,2,3,4,(5,6))
 # print(t[-1][-1]) 
 # print(t)
-se={1,"hello",'a',(1,2)}
-print(type(se))
+# se={1,"hello",'a',(1,2)}
+# print(type(se)) 
