@@ -337,22 +337,22 @@
 # li=[[[1,2],[3,4]],[[5,6],[7,8]]]
 # print(li[1][1][0])
 
-# mail="advgzvdbc@gmail"
-# li=mail.split("@")
-# print(li[0])    
-# input [1,1,2,2,3,3,4]
-# output [1,2,3,4]
-# li =[1,2,3,3,4,4,445,224,3,3,4,5]
-# li=set(li)
-# print(list(li))
-# tup=(1,2,3,4,5)
-# print(tup)
-# for i in tup:
-#     print(i)
-# print(tup[0])
-# tup[0]="hello" #tuple are immutable 
-# t=(1,2,3,4,(5,6))
-# print(t[-1][-1]) 
-# print(t)
-# se={1,"hello",'a',(1,2)}
-# print(type(se)) 
+mail="advgzvdbc@gmail"
+li=mail.split("@")
+print(li[0])    
+input [1,1,2,2,3,3,4]
+output [1,2,3,4]
+li =[1,2,3,3,4,4,445,224,3,3,4,5]
+li=set(li)
+print(list(li))
+tup=(1,2,3,4,5)
+print(tup)
+for i in tup:
+    print(i)
+print(tup[0])
+tup[0]="hello" #tuple are immutable 
+t=(1,2,3,4,(5,6))
+print(t[-1][-1]) 
+print(t)
+se={1,"hello",'a',(1,2)}
+print(type(se)) 
