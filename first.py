@@ -314,3 +314,45 @@
 # help function 
 # help function give us the details of any funtion
 # help()
+
+
+# built-in module 
+# it will show all in modules in my pc 
+# help("modules")
+
+# help(print) 
+# import time
+# tem =time.time()
+# tem/=60
+# print(tem/60)
+# print(time.ctime())
+# print("hello")
+# print(time.sleep(3))  # it work as delay() function in js
+# print("yoo")
+#
+# li=[1,2,3,4,5,6]
+# print(li[::-1])
+# li1=[1,2,3,4,5,[6,7,[1,2]]]
+# print(li1[5][2][1])
+# li=[[[1,2],[3,4]],[[5,6],[7,8]]]
+# print(li[1][1][0])
+
+# mail="advgzvdbc@gmail"
+# li=mail.split("@")
+# print(li[0])    
+# input [1,1,2,2,3,3,4]
+# output [1,2,3,4]
+# li =[1,2,3,3,4,4,445,224,3,3,4,5]
+# li=set(li)
+# print(list(li))
+# tup=(1,2,3,4,5)
+# print(tup)
+# for i in tup:
+#     print(i)
+# print(tup[0])
+# tup[0]="hello" #tuple are immutable 
+# t=(1,2,3,4,(5,6))
+# print(t[-1][-1]) 
+# print(t)
+se={1,"hello",'a',(1,2)}
+print(type(se)) 
