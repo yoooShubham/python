@@ -356,4 +356,116 @@
 # print(t)
 # se={1,"hello",'a',(1,2)}
 # print(type(se)) 
-help(dict)
+# help(dict)
+
+# function in python
+# def Phello():
+
+#     print("hello")
+#     return 0
+# Phello()
+
+# odd even function
+# def OandE (i):
+#     if(i%2==0):
+#         print("number is even")
+#     else:
+#         print("number is odd")
+#     return 0
+# for i in range(0,10):
+#   print(i, sep=" ")
+#   OandE(i)
+
+# def f(x):
+#     x=x+1
+#     print('in f(x):x =',x)
+#     return x
+# x=3
+# z=f(x)
+# def g(x):
+#     def h(x):
+#         x=x+1
+#         print('in h(x):x =',x)
+#     x=x+1
+#     print('in g(x):x =',x)
+#     h(x)
+#     return x
+
+# def h(y):
+#     global x
+#     x +=1
+# x=5
+# h(x)
+# print(x)
+
+# it will create infinity calls, till the maximum limit reached # call back hell
+# def f():
+#     print("inside f")
+#     def g():
+#         print("inside g")
+#         f()
+#     g()
+# f()
+
+# Python Practice Problems
+
+#User will input (3ages).Find the oldest one 
+# age1=int(input("enter your first age: "));age2=int(input("enter your second age: "));age3=int(input("enter your third age: "))
+# if(age1>age2 and age1>age3):
+#     print("age first is big one:",age1)
+# if(age2>age1 and age2>age3):
+#     print("age second is big one:",age2)
+# else:
+#     print("age third is big one:",age3)
+
+# Write a program that will convert celsius value to fahrenheit
+# cel=int(input("enter the degree celsius :"))
+# fer = (cel*1.8)+32
+# print(cel,"degree celsius ="+" fahrenheit :",fer)
+# (34°C × 9/5) + 32 = 93.2°F
+
+# User will input (2numbers).Write a program to swap the numbers
+# num1=int(input("enter the first 1 number :"))
+# num2=int(input("enter the second 2 number :"))
+# num3=num1
+# del num1
+# num1= num2
+# del num2
+# num2= num3
+# del num3
+# print(num1)
+# print(num2)
+# # 
+# num1 = int(input("Enter the first number: "))
+# num2 = int(input("Enter the second number: "))
+
+# num1, num2 = num2, num1
+
+# print("After swapping:")
+# print("First number:", num1)
+# print("Second number:", num2)
+
+
+# 4.Write a program that will give you the sum of 3 digits
+# num1=int(input("enter the three digit number :"))
+# num1=str(num1)
+# print(num1)
+# su =0
+# for i in num1:
+#     su= su + int(i)
+# print(su)
+# # chatgpt code 
+# num = int(input("Enter a 3-digit number: "))
+
+# d1 = num // 100          # first digit
+# d2 = (num // 10) % 10    # second digit
+# d3 = num % 10            # third digit
+
+# sum_digits = d1 + d2 + d3
+# print("The sum of digits is:", sum_digits)
+
+# Write a program that will reverse a four digit number.Also it checks whether the reverse is true
+# num1=input("enter the four digit number :")
+# num1 = num1[::-1]
+# print(num1)
+
