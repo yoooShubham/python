@@ -469,3 +469,62 @@
 # num1 = num1[::-1]
 # print(num1)
 
+# recursion 
+# def rec(a,b):
+#     if(b==1):
+#         return a
+#     else:
+#         return a+rec(a,b-1)
+
+# rec(4,5)    
+# def fact(num):
+#     if(num==1):
+#         return num
+#     else:
+#         return num * fact(num-1)
+# print(fact(5))
+
+# def pali(st):
+#       if(len(st)<=1):
+#        print("palindrome")  
+#       else:
+#         if(st[0]==st[-1]):
+#           pali(st[1:-1]) 
+#         else:
+#           print("not palindrome")    
+     
+# pali("madam")
+
+# hof 
+# map
+# filter
+# reduce 
+# l=[1,2,3,4,5]
+# add= 0
+# def hello(nam):
+#     if(nam%2==0):
+#       global add
+#       add=add+nam
+# list(map(hello,l))
+# print(add)
+# l=[1,2,3,4,5]
+# print(list(map(lambda x: f"even{x*2}" if x%2==0 else "odd",l)))   
+
+# de={
+# "student":["shubham","khushi","arpan"],
+# "class":[12,3,14]
+# }
+# print(list( map(lambda x: print(x),de["student"])))
+
+# l1=["apple","mango","papaya","orange"]
+# print(list(filter(lambda x:x if x.count("e") else None ,l1)))
+
+# l2=[x**2 for x in range(0,10)]
+# print(l2)
+# print(25 in l2)
+# de={
+#     1:1,
+#     2:2,
+#     3:"htllo"
+# }
+# li=print(de.keys())
