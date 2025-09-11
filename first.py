@@ -528,3 +528,161 @@
 #     3:"htllo"
 # }
 # li=print(de.keys())
+
+
+#  class and objects are start from here 
+# syntex
+
+# class ClassName :
+#  # code,datatype , function
+#  what is the defference between function and methods 
+#  function are the block of code which do some task 
+#  method are just like the function, but there is main difference between them is the method are work with its class/ written inside of class  object not with globally
+# class Xyz:  
+#     def __init__(self):
+#         print("hello") 
+
+# ob=Xyz()
+# ob1=Xyz()
+# ob2=Xyz()
+
+# see in the xyz class we won't call init fuction but, every time we create an object the init function run itself 
+
+
+     
+# class Myclass:
+#   def __init__(self):
+#       self.name=""
+#   def pHello(shu):
+#         print("hello",shu)
+
+
+# import module file is store in python > lib  folder
+# import mymodul
+# mymodul.Xyz()
+
+# class Atm:
+#     def __init__(self):
+#         self.pin=""
+#         self.balance=0
+           
+#     def menu(self):
+#         userChoice=int(input("""
+#             hello, how would  you like to start ?
+#             1. enter 1 to create pass 
+#             2. enter 2 to deposit
+#             3. enter 3 to withdraw 
+#             4. enter 4 to check balance
+#             5. enter 5 to exit                
+#            """))
+#         if(userChoice== 1):
+#             self.createP()
+#             print("create password !")
+#         elif(userChoice==2):
+#               self.addB()
+#               print("deposit !")
+#         elif(userChoice==3):
+#               print("withdrow amount!")
+#         elif(userChoice==4):
+#               print("total balane!",self.balance)
+#         else:
+#               print("exit !")
+#               exit()
+#     def createP(self):
+#             self.pin= int(input("enter your pin: "))
+#             print("pin set")
+#             self.menu()
+#     def addB(self):
+#             self.balance= int(input("enter amount to deposits: "))
+#             print("amount deposit !")
+#             self.menu()
+#     def addB(self):
+#             self.balance= int(input("enter amount to deposits: "))
+#             print("amount deposit !") 
+#             self.menu()    
+# ob= Atm().menu()
+
+# class My :
+#     def __init__(self):
+#         self.hello=" "
+#     def pH(self):
+#         print(self.hello)
+# ob= My # temporary object bcoz we wont store it in any variable for long storage 
+# print(ob)
+
+# class Xya :
+#     def __init__(self):
+#          print(id(self))
+# ob1=Xya()
+# print(int(id(ob1)))
+# ob2= Xya()
+# print(int(id(ob2)))
+
+# class Myclass:
+#     def __init__(self):
+#         self.__privateV1=" hehehehe"
+#         self.__privateV2=123
+#         self.__privateV3=34.44
+#         print("hello")
+#         self.__privateV4=True
+#     def __privateF(self):
+#         print(self.__privateV1)
+# obj1= Myclass()
+# obj1._Myclass__privateF() # here is the reason why we have the access of private variable bcoz of nothing is truly private in python \
+
+
+# reference variable 
+# class Xyz:
+#     def __init__(self,name ):
+#         self.name=name
+#     def Phello(self):
+#         print("hello",self.name)
+# def myF(nu):
+#     print("hello",nu)
+# obj=Xyz("shubham") # obj is a reference variable here 
+# myF(obj.name)
+# obj.Phello()
+
+# class Myclass:
+#     def __init__(self,n1,n2,n3):
+#         self.__privateV1=n1
+#         self.__privateV2=n2
+#         self.__privateV3=n3
+#     def pData(self):
+#         print("name 1st:{} name 2nd:{} name 3rd:{}".format(self.__privateV1,self.__privateV2,self.__privateV3))
+# obj1=Myclass("shubham","khushi","arpan")
+# obj2=Myclass("yoo","nft","cypto")
+# obj3=Myclass("hhheeee","hehehehe","hihihihih")
+# l1=[obj1,obj2,obj3]
+# l2=[]
+# for i in l1: 
+    # i.pData() # it will print all the data of every object
+    #  l2.append(i._Myclass__privateV1) # it will createb an a new list which store all the objects privateV1 variables daata in side a new list
+# print(l2)
+# class Xyz:
+#     glo_vari="hello shubham"
+#     def __init__(self):
+#         self.__greet="namaste"
+
+#     def pAll(self):
+#         print(self.__greet," ",Xyz.glo_vari)
+#         Xyz.glo_vari=3
+#         print(Xyz.glo_vari)
+# obj=Xyz()
+# obj.pAll()
+
+# static variable example 
+# Write a class that counts how many objects have been created using a class variable
+# class Myclass:
+#     counter=0
+#     def __init__(self):
+#         Myclass.counter +=1
+#         print("object create !")
+# ob1=Myclass()
+# ob2=Myclass()
+# ob3=Myclass()
+# ob4=Myclass()
+# ob5=Myclass()
+# print(Myclass.counter)
+
+
