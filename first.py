@@ -828,19 +828,19 @@
 # print(obj1.name)
 
 
-class parent:
-    def __init__(self,name,price):
-        self.price=price
-        self.name=name
-        # def p():
-        #     print("he.")
-        # self.p=p
-class child(parent):
-    def __init__(self, name, price,brand,os):
-        super().__init__(name,price)
-        self.brand=brand
-        self.os=os
-obj1=child("iphone 16",55000,"apple","IOS")
-print(obj1.__dict__)
+# class parent:
+#     def __init__(self,name,price):
+#         self.price=price
+#         self.name=name
+#         # def p():
+#         #     print("he.")
+#         # self.p=p
+# class child(parent):
+#     def __init__(self, name, price,brand,os):
+#         super().__init__(name,price)
+#         self.brand=brand
+#         self.os=os
+# obj1=child("iphone 16",55000,"apple","IOS")
+# print(obj1.__dict__)
 # obj1.p()
-#method overloading
+#method overloading not support in python !!!
