@@ -686,3 +686,161 @@
 # print(Myclass.counter)
 
 
+# class agregation releationship 
+# class customer:
+#     def __init__(self,name,gender,age,address):
+#         self.name=name
+#         self.gender=gender
+#         self.age=age
+#         self.address=address
+# class Address:
+#     def __init__(self,area,city,state,pincode):
+#         self.area=area
+#         self.city=city
+#         self.state=state
+#         self.pincode=pincode
+# ob2=Address("4/4 foji colony","jodhpur","rajasthan",342001)
+# ob1=customer("shubham","male",21,ob2.area)
+# print(ob1.address)
+
+# now we are createing edit function 
+
+# class customer:
+#     def __init__(self,name,gender,age,address):
+#         self.name=name
+#         self.gender=gender
+#         self.age=age
+#         self.address=address
+#     def pAll(self):
+#         print(self.address.__dict__)
+#     def updateN(self,newname):
+#           if type(newname) is str:
+#               self.name=newname
+#           else:
+#               print("enter valid string name !")
+# class Address:
+#     def __init__(self,area,city,state,pincode):
+#         self.area=area
+#         self.city=city
+#         self.state=state
+#         self.pincode=pincode
+#     def updateC(self,newCity):
+#           if type(newCity) is str:
+#               self.city=newCity
+#               print(self.city)
+#           else:
+#               print("enter valid string city name!")
+#     def updatepin(self,newpin):
+#           if type(newpin) is int:
+#               self.pincode=newpin
+#           else:
+#               print("enter valid number pin !")
+
+
+# ob2=Address("4/4 foji colony","jodhpur","rajasthan",342001) #data assigning/ create object for the clss
+# ob1=customer("shubham","male",21,ob2) #data assigning/ create object for the clss 
+# ob1.pAll()
+# print(ob1.__dict__)
+# print(ob2.__dict__)
+
+# __dict__ is magic function which is help to convert all the reference of an object in the dictionary 
+# ob2.updateC("jaisalmer")
+# print(ob2.__dict__)
+    
+# inheritance 
+#
+# class user:   #parent class 
+#     def __init__(self,name,password):
+#         self.userN= name
+#         self.userP=password
+#     def log_in(self):
+#         if(type(self.userN) is str):
+#             print("welcome")
+#             return True
+#         else:
+#             print("enter user valid user name !")
+# class student(user): #child class  # student(user) means student class inherite user class 
+#     def enroll(self):
+#         if(user.log_in):
+#            print("student enrolld") 
+# ob1= student("hello",123)
+# print(ob1.log_in())
+
+# example 2
+# class parent:
+#     def pParents(self):
+#         print("hello fron parents class !")
+
+# class child:
+#     def pChild(self):
+#         print("hello")
+
+# obj=child()
+# obj.pChild() # here i can only select one method of a class 
+
+# class parent:
+#     def pParents(self):
+#         print("hello fron parents class !")
+
+# class child(parent): # here im passing the whole class in child class which allow me to use parents class method and data
+#     def pChild(self):
+#         print("hello from child class !")
+# obj=child()
+# obj.pChild()
+# obj.pParents()
+# # the object obj is from child class but still can access parent class
+# obj2=parent()
+# obj2.pChild() # this will throw error bcoz of inheritance work in child to parents not from parents to child 
+
+#method overeriding 
+# class parent:
+#     def __init__(self):
+#         pass
+#     def p(self):
+#         print("hello from parents")
+#     def a(self):
+#         print("hello from parents")
+# class child(parent):
+#     def __init__(self):
+#         pass
+#     # def p(self):
+#     #     print("hello from child")
+
+# obj1=child()
+# obj1.a()
+# obj1.p()
+
+# super keyword
+
+# class parent:
+#     def __init__(self,name,price):
+#         self.price=price
+#         self.name=name
+#     def buy(self):
+#         print(f"buying a phone for {self.name}!")
+# class child(parent):
+#    def buy(self):
+#        print("buying smartphone !")
+#        super().buy()
+#        print(super().__init__("arpan",50000))# it will give the execution flow to parent class 
+# obj1=child("shubham",25000)
+# obj1.buy()
+# print(obj1.name)
+
+
+class parent:
+    def __init__(self,name,price):
+        self.price=price
+        self.name=name
+        # def p():
+        #     print("he.")
+        # self.p=p
+class child(parent):
+    def __init__(self, name, price,brand,os):
+        super().__init__(name,price)
+        self.brand=brand
+        self.os=os
+obj1=child("iphone 16",55000,"apple","IOS")
+print(obj1.__dict__)
+# obj1.p()
+#method overloading
